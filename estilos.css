@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BDBC8D;
+   
+   
+}
+
+.cotenedor{
+    display: grid;
+    text-align: center;
+    gap: 10px;
+    grid-area: 
+    "header"
+    "navbar"
+    "main "
+    "footer";
+}
+@media screen and (max-width:600px) {
+    .contenedor{
+        grid-template-columns: 200px auto;
+        grid-template-rows: 300px 100px auto 100px;
+        grid-template-areas: 
+        "header header"
+        "navbar navbar"
+        "main main"
+        "footer footer"
+        ;
+       font-size: 1.5rem
+       }
+   
+    
+}
+.header{
+    grid-area: header;
+    background-color: #BDBC8D;
+    text-align: center;
+}
+.navbar{
+    grid-area: navbar;
+    
+}
+.nav{
+    background-color: rgb(25, 26, 22);
+    padding: 0.3rem;  
+    text-align: center;
+    position: sticky;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li{
+    display: inline;
+    list-style: none;
+    margin: 1.5rem;
+    font-family:  'Alegreya SC', serif; ;
+   
+}
+
+.main{
+    grid-area: main;
+    background-color: #BDBC8D;
+    text-align: center;
+}
+.div{
+    margin: 70px;
+    padding: 25px;
+    font-size: 1 rem;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 25px;
+    
+    
+}
+.footer{
+    grid-area: footer;
+    background-color: #BDBC8D;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.contenedor1{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header1"
+    "nav1"
+    "main1"
+    "footer1";
+}
+@media screen and (max-width:600px){
+    .contenedor1{
+     grid-template-areas: 
+     "header1 header1"
+     "nav1 nav1"
+     "main1 main1"
+     "footer1 footer1" ;
+     grid-template-rows: 200px 200px auto 100px;
+     grid-template-columns: 200px 200px 100px 100px;
+     font-size: 1.5rem;
+      
+        
+    }
+   
+}
+
+.header1{
+    grid-area: header1;
+    text-align: center;
+}
+.nav1{
+    grid-area: nav1;
+    font-size: 1.2rem;
+    font-family: 'IM Fell English SC', serif;
+   
+}
+.main1{
+    grid-area: main1;
+    font-size: 1.2rem;
+    font-family: 'IM Fell English SC', serif;
+    
+}
+.footer1{
+    grid-area: footer1;
+    background-color: #BDBC8D;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.tienda98{
+    text-align: center;
+
+}
+.vinos{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Alegreya SC', serif;
+    font-weight: lighter;
+}
+
+.fotovino{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+
+    
+}
+.ant{
+
+
+    
+    height: 150px;
+}
+
+
+
+  
+
+.textotienda{
+    
+    padding: 35px;
+    font-size: 1.5 rem;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 25px;
+    
+
+}
+.nuestrosvinos{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'IM Fell English SC', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.promo1{
+    text-align: center;
+    font-size: 2rem;
+    font-family:  'Alegreya SC', serif; 
+    font
+}
+
+.precioenemigo{
+   
+    margin: 30px;
+
+}
+
+.textoenemigo{
+    margin: 30px;
+}
+
+.promoelenemigo{
+    text-align: center;
+    font-size: 1rem;
+    font-family:  'Alegreya SC', serif; ;
+    margin: 50px;
+    padding: 20px;
+    border: white double;
+}
+
+.promo2{
+    text-align: center;
+    font-size: 2rem;
+    font-family:  'Alegreya SC', serif; 
+
+}
+.textocatena{
+    margin: 30px;
+}
+.preciocatena{
+    margin: 30px;
+    
+}
+
+
+.promocatena{
+    text-align: center;
+    font-size: 1rem;
+    font-family:  'Alegreya SC', serif; ;
+    margin: 50px;
+    padding: 20px;
+    border: white double;
+
+}
+.promo3{
+    text-align: center;
+    font-size: 2rem;
+    font-family:  'Alegreya SC', serif;
+}
+.textdoc{
+    margin: 30px
+}
+.preciodoc{
+    margin: 30px;
+    
+}
+.promodoc{
+    text-align: center;
+    font-size: 1rem;
+    font-family:  'Alegreya SC', serif; ;
+    margin: 50px;
+    padding: 20px;
+    border: white double;
+    
+
+}
+.listas{
+    text-decoration: underline rgb(17, 15, 15);
+    font-weight: bold;
+    margin: 10px;
+    
+    
+}
+.titulocontacto{
+    text-align: center;
+    font-family:  'Alegreya SC', serif;
+    font-size: 2rem;
+    margin: 40px;
+    font-weight: normal;
+}
+.textocontacto1{
+    margin: 30px;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 25px;
+}
+.formcontacto{
+    text-align: center;
+    
+    
+}
+legend{
+    font-size: 2rem;
+    
+}
+
+.sobrenostros{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    
+}
+.texto1{
+    margin: 30px;
+    padding: 10px;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    
+
+}
+.enologo{
+    margin: 30px;
+    
+}
+.texto2{
+    margin: 30px;
+    padding: 10px;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.barrica{
+ margin: 30px;
+}
+
+.texto3{
+    margin: 30px;
+    padding: 10px;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.uva{
+    margin: 30px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
