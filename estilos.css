@@ -10,50 +10,24 @@ body{
    
 }
 
-.cotenedor{
-    display: grid;
+.contenedorTT{
+    background-color: #BDBC8D;
+    margin: auto;
+    padding: AUTO;
+    font-size: 3 rem;
     text-align: center;
-    gap: 10px;
-    grid-area: 
-    "header"
-    "navbar"
-    "main "
-    "footer";
-}
-@media screen and (max-width:600px) {
-    .contenedor{
-        grid-template-columns: 200px auto;
-        grid-template-rows: 300px 100px auto 100px;
-        grid-template-areas: 
-        "header header"
-        "navbar navbar"
-        "main main"
-        "footer footer"
-        ;
-       font-size: 1.5rem
-       }
-   
+    font-family: 'IM Fell English SC', serif;
+    line-height: 25px;
     
+
 }
+
 .header{
     grid-area: header;
     background-color: #BDBC8D;
     text-align: center;
 }
-.navbar{
-    grid-area: navbar;
-    
-}
-.nav{
-    background-color: rgb(25, 26, 22);
-    padding: 0.3rem;  
-    text-align: center;
-    position: sticky;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 
 li{
     display: inline;
@@ -80,8 +54,9 @@ li a:hover{
 
 }
 
-.main{
-    grid-area: main;
+
+.main1{
+    
     background-color: #BDBC8D;
     text-align: center;
 }
@@ -103,15 +78,7 @@ li a:hover{
     font-family: 'IM Fell English SC', serif;
 }
 
-.contenedor1{
-    display: grid;
-    gap: 10px;
-    grid-template-areas: 
-    "header1"
-    "nav1"
-    "main1"
-    "footer1";
-}
+
 @media screen and (max-width:600px){
     .contenedor1{
      grid-template-areas: 
