@@ -18,10 +18,15 @@ body{
     text-align: center;
     font-family: 'IM Fell English SC', serif;
     line-height: 25px;
+    color: black;
     
 
 }
-
+.navTT{
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+}
 .header{
     grid-area: header;
     background-color: #BDBC8D;
@@ -43,7 +48,47 @@ li a{
     transition: all 1s ease;
     
 }
+.metrix{
+    
+        background-color: rgb(47, 38, 38);
+       justify-content: space-around;
+        
 
+}
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: #eae8e8;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
 
 
 li a:hover{
@@ -181,86 +226,6 @@ li a:hover{
 
 
 
-
-
-
-
-
-
-
-
-.promo1{
-    text-align: center;
-    font-size: 2rem;
-    font-family:  'Alegreya SC', serif; 
-    font
-}
-
-.precioenemigo{
-   
-    margin: 30px;
-
-}
-
-.textoenemigo{
-    margin: 30px;
-}
-
-.promoelenemigo{
-    text-align: center;
-    font-size: 1rem;
-    font-family:  'Alegreya SC', serif; ;
-    margin: 50px;
-    padding: 20px;
-    border: white double;
-}
-
-.promo2{
-    text-align: center;
-    font-size: 2rem;
-    font-family:  'Alegreya SC', serif; 
-
-}
-.textocatena{
-    margin: 30px;
-}
-.preciocatena{
-    margin: 30px;
-    
-}
-
-
-.promocatena{
-    text-align: center;
-    font-size: 1rem;
-    font-family:  'Alegreya SC', serif; ;
-    margin: 50px;
-    padding: 20px;
-    border: white double;
-
-}
-.promo3{
-    text-align: center;
-    font-size: 2rem;
-    font-family:  'Alegreya SC', serif;
-}
-.textdoc{
-    margin: 30px
-}
-.preciodoc{
-    margin: 30px;
-    
-}
-.promodoc{
-    text-align: center;
-    font-size: 1rem;
-    font-family:  'Alegreya SC', serif; ;
-    margin: 50px;
-    padding: 20px;
-    border: white double;
-    
-
-}
 .listas{
     text-decoration: underline rgb(17, 15, 15);
     font-weight: bold;
@@ -334,7 +299,44 @@ legend{
     margin: 30px;
 }
 
- 
+.tiendadevinos{
+display: inline-flex;
+     margin: 20px;
+    justify-content: space-around;
+     flex-wrap: wrap;
+     width: auto;
+     align-items: center;
+    
+}
+.divt{
+    margin: 10px;
+    padding: 30px;
+}
+
+
+.trans{
+    transition: all 1s ease;
+}
+    
+.trans :hover{
+    transform: scale(1.1,1.1) ;
+
+}
+.contenedorcontacto{
+    background-color: #BDBC8D;
+    display: inline-flex;
+    
+
+}
+.contenedorYY{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BDBC8D;
+   
+}
+
 
 
 
