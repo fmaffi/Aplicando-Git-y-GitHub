@@ -1,22 +1,29 @@
+
 .holis {
-  background-color: #BDBC8D; }
+  background-color: #212529; }
   .holis .titulocontacto {
+    background-color: #212529;
+    
     text-align: center;
     font-family: 'Alegreya SC', serif;
     font-size: 2rem;
     margin: 40px;
-    font-weight: normal; }
+    font-weight: normal;
+    color: white; }
   .holis .textocontacto1 {
     margin: 30px;
     text-align: center;
     font-family: 'IM Fell English SC', serif;
-    line-height: 25px; }
+    line-height: 25px;
+    color: white; }
   .holis .formcontacto {
-    text-align: center; }
+    text-align: center;
+    color: white; }
   .holis legend {
-    font-size: 2rem; }
+    font-size: 2rem; 
+    color: white;}
   .holis .contenedorcontacto {
-    background-color: #BDBC8D;
+    background-color: #212529;
     display: inline-flex; }
 
 * {
@@ -24,22 +31,24 @@
   padding: 0%;
   box-sizing: border-box; }
 
-body {
-  background-color: #BDBC8D; }
+
 
 .header {
-  background-color: #BDBC8D;
+  background-color: #212529;
   text-align: center; }
 
 .contenedorTT, .footer {
-  background-color: #BDBC8D;
+  background-color: #212529;
+
+  
   margin: auto;
   padding: AUTO;
   font-size: 3 rem;
   text-align: center;
   font-family: 'IM Fell English SC', serif;
   line-height: 25px;
-  color: black; }
+  color: black;  
+  width: auto;}
 
 li {
   display: inline;
@@ -64,18 +73,21 @@ li a:hover {
   transform: scale(1.1, 1.1); }
 
 .footer {
+
   font-size: 1.2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  color: white;
+}
+  
 
 .contenedorYY {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #BDBC8D; }
+ }
+ 
 
-.holis {
-  background-color: #BDBC8D; }
+
   .holis .titulocontacto {
     text-align: center;
     font-family: 'Alegreya SC', serif;
@@ -92,11 +104,11 @@ li a:hover {
   .holis legend {
     font-size: 2rem; }
   .holis .contenedorcontacto {
-    background-color: #BDBC8D;
-    display: inline-flex; }
+    display: inline-flex;
+  background-color: #232A32; }
 
 .metrix {
-  background-color: #2f2626;
+  background-color: #212529;
   justify-content: space-around; }
 
 @media (min-width: 1025px) {
@@ -137,3 +149,124 @@ li a:hover {
   width: auto;
   align-items: center;
   gap: 25px; }
+  
+  .contenedorcard{
+    width: auto;
+    padding: 50px;
+    gap: 15px;
+    margin: 30px;
+    
+    
+  }
+  
+  
+  .tituloindex{
+    font-family: 'IM Fell English SC', serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: white;
+    
+  }
+  .videopromo{
+    width: 40%;
+    display: inline-flex;
+    align-items: center;
+  }
+  .suscripcion{
+    font-size: 2rem;
+
+  }
+  
+  
+  
+   .combooff{
+    display: inline-flex;
+    width: 30%;
+    margin: 50px;
+   }
+   .comboeco{
+    display: inline-flex;
+    width: 30%;
+    margin: 50px;
+   }
+   .ui{
+    font-family: 'IM Fell English SC', serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: white;
+   }
+  
+  .tiendacatena{
+  font-family:'IM Fell English SC', serif ;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin: 15px;
+  
+  
+  
+}
+
+@media screen and (max-width:700px) {
+  .tiendacatena{
+    display: inline-block;
+    
+    
+    
+  }
+  .combooff{
+    width: auto;
+  }
+  .comboeco{
+    width: auto;
+  }
+  
+}
+.titulocatena{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+  
+}
+.titulozucardi{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+
+}
+.titulorutini{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+}
+.tituloricciatelli{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+
+}
+.titulocobos{
+  font-family: 'IM Fell English SC', serif;
+  color: #eae8e8;
+
+}
+.main2{
+  background-color: #212529;
+}
+
+.cardcontac{
+  margin: 20px;
+}
+.promociones{
+  margin: 80px;
+  padding: 10px;
+  width: auto;
+  font-family:  'IM Fell English SC', serif;
+  
+  
+}
+.fondopromo{
+  background-color: #212529;
+}
+body{
+background-color: #232A32;
+}
+.promosi{
+  width: auto;
+}
